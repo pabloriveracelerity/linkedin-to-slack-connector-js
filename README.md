@@ -11,6 +11,7 @@ This is setup to run on Heroku.
 Scripts:
 
 `npm start` - Start the currently empty and unused hapijs server
+
 `node bin/postMessage.js` - This is the script that connects slack and linkedin.
 
 #### Currently a very much work in progress 😁
@@ -27,7 +28,7 @@ Scripts:
 
 
 
-
+<img src="https://gvanrossum.github.io/images/internetdog.gif">
 
 
 
