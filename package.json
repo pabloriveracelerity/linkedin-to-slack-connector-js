@@ -1,0 +1,34 @@
+{
+  "name": "linkedin-to-slack-connector-js",
+  "version": "1.0.0",
+  "description": "LinkedIn API to Slack API connector in nodejs and setup for heroku",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@hqoss/http-client": "^0.1.24-0",
+    "@slack/web-api": "^5.10.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "post": "node /bin/post.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloriveracelerity/linkedin-to-slack-connector-js.git"
+  },
+  "keywords": [
+    "linkedin",
+    "slack",
+    "connector",
+    "node"
+  ],
+  "author": "privera@celerity.com",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/pabloriveracelerity/linkedin-to-slack-connector-js/issues"
+  },
+  "homepage": "https://github.com/pabloriveracelerity/linkedin-to-slack-connector-js#readme"
+}
