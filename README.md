@@ -5,6 +5,7 @@ Packages:
 - dotenv - https://github.com/motdotla/dotenv
 - hapijs - https://hapi.dev/
 - slack-webhook - https://slack.dev/node-slack-sdk/webhook
+- http-client - https://github.com/hqoss/node-http-client
 
 This is setup to run on Heroku.
 

@@ -5,14 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "@hapi/hapi": "^19.1.1",
-    "@hqoss/http-client": "^0.1.24-0",
     "@slack/webhook": "^5.0.3",
     "dotenv": "^8.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^26.2.2"
+  },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
