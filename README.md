@@ -15,9 +15,20 @@ Scripts:
 
 `node bin/postMessage.js` - This is the script that connects slack and linkedin.
 
+`npm run test` - Run jest tests.
+
 #### Currently a very much work in progress 😁
 
+TODO:
 
+- Create linkedin app
+- get api credentials for linkedin app
+- test the credentials with code in `lib/linkedin`
+- research which data from the profile is needed
+- update code to get that data
+
+- create integration itself
+- decide if integraiton is going to be a function or an app
 
 
 
