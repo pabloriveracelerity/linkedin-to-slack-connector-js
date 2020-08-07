@@ -14,6 +14,7 @@ const init = async () => {
         method: 'GET',
         path: '/',
         handler: (request, h) => {
+            
 
             return 'Up and running ...';
         }
